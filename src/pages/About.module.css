@@ -1,0 +1,131 @@
+.bck {
+  background: linear-gradient(180deg, #9e9efc 0%, #c4b5fd 100%);
+  color: #fff;
+}
+
+.about {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  padding-top: 3em;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+
+.intro p {
+  font-size: 1.1em;
+}
+
+.intro button {
+  background-color: #fff;
+  color: #9e9efc;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.intro button:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #9e9efc 0%, #c4b5fd 100%);
+  color: black;
+}
+
+.defineCypherwave {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.mission {
+  text-align: center;
+  background-color: #ab95fd;
+  padding: 30px;
+  border-right: 20px solid #fff;
+  border-left: 20px solid #fff;
+}
+
+.mission h2 {
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+.mission p {
+  font-size: 1.1em;
+}
+
+.vision {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: #ab95fd;
+  padding: 30px;
+  border-right: 20px solid #ab95fd;
+  border-left: 20px solid #ab95fd;
+}
+
+.vision h2 {
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+.vision p {
+  font-size: 1.1em;
+}
+
+.values,
+.story {
+  text-align: center;
+}
+
+.values h1,
+.story h1 {
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.valueBox {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.quality {
+  background-color: #ab95fd;
+  padding: 20px;
+  border-top: 10px solid #e8e2ff;
+  border-bottom: 10px solid #e8e2ff;
+}
+
+.innovation {
+  color: #ab95fd;
+  background-color: #e8e2ff;
+  padding: 20px;
+  border-top: 10px solid #ab95fd;
+  border-bottom: 10px solid #ab95fd;
+}
+
+.integrity {
+  background-color: #cf9ffe;
+  padding: 20px;
+  border-top: 10px solid #e8e2ff;
+  border-bottom: 10px solid #e8e2ff;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}

@@ -1,0 +1,25 @@
+.innovate {
+  padding: 60px 0;
+}
+
+.innovateIntro {
+  text-align: center;
+}
+
+.innovate h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.innovate p {
+  font-size: 1.1em;
+}
+
+.inovativeIdeas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+  gap: 20px;
+}

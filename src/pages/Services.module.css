@@ -1,0 +1,60 @@
+.serviceBox {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+  width: 100%;
+}
+
+.service img {
+  width: 100%;
+  filter: drop-shadow(0 0 2.5rem #c4b5fd);
+}
+
+.content {
+  width: 50%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.serviceDescription {
+  margin-bottom: 50px;
+}
+
+.servicePage {
+  overflow: hidden;
+}
+
+.servicePage section {
+  margin-bottom: 8em;
+}
+
+.mt5 {
+  margin-top: 5em;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.getIntouch {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  background-color: #ab95fd;
+  width: 600px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
