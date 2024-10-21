@@ -1,0 +1,110 @@
+.contact {
+  background-image: url(./images/teambck1.png), url(./images/teambck2.png);
+  background-position: top right, bottom left;
+  background-repeat: no-repeat;
+}
+
+.contactUs {
+  color: #fff;
+  background-color: #ab95fd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactCenter {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.contactCenter,
+.contactFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  color: #ab95fd;
+  background-color: #e8e2ff;
+  padding: 20px;
+}
+
+.form form {
+  width: 100%;
+}
+
+.contactFlex {
+  height: 700px;
+}
+
+.contactFlex div {
+  height: 100%;
+  flex: 1;
+  filter: drop-shadow(0 0 2.5rem #c4b5fd);
+  border-radius: 5px;
+}
+
+.contactImg {
+  width: 100%;
+  margin-top: 4em;
+}
+
+.contactImg img {
+  display: block;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+
+  border-style: none;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.form input {
+  height: 40px;
+}
+
+.form input:focus,
+.form textarea {
+  border-color: 3px solid #ab95fd;
+  caret-color: #ab95fd;
+  padding: 5px;
+  padding-left: 15px;
+  transition: all 1s ease;
+}
+
+.submitBtn {
+  width: 100%;
+  background-color: #ab95fd;
+  color: #fff;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 30px; */
+}
+
+.contactInfo img {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.contactInfo p {
+  font-size: 1.2em;
+}

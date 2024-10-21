@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import styles from "./About.module.css";
 
@@ -189,6 +190,7 @@ function About() {
           </div>
           <button>Find More Team</button>
         </section>
+        <Footer />
       </div>
     </div>
   );

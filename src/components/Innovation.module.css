@@ -1,6 +1,6 @@
-.innovate {
+/* .innovate {
   padding: 60px 0;
-}
+} */
 
 .innovateIntro {
   text-align: center;
@@ -18,8 +18,7 @@
 
 .inovativeIdeas {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: row;
   overflow-x: scroll;
   gap: 20px;
 }

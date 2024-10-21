@@ -1,7 +1,12 @@
 .header {
-  background-color: #8686ff1a;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.headerContent {
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 20px;
 }

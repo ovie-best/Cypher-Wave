@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import styles from "./Services.module.css";
 
@@ -8,6 +9,7 @@ function Services() {
       <div className={styles.mt5}>
         <Service />
       </div>
+      <Footer />
     </div>
   );
 }

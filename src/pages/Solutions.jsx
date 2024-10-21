@@ -4,6 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 
 import Header from "../components/Header";
 import styles from "./Solutions.module.css";
+import Footer from "../components/Footer";
+import { NavLink } from "react-router-dom";
 
 function Solutions() {
   const responsive = {
@@ -60,7 +62,7 @@ function Solutions() {
           // shouldResetAutoplay={true}
           rewind={true}
         >
-          <div className="content-blocks">
+          <div className={styles.contentBlock}>
             <div className={styles.block}>
               <img
                 src="./images/website-and-app-development.png"
@@ -75,12 +77,14 @@ function Solutions() {
                   enhance user experience, ensuring your online presence is
                   visually appealing and accessible across all devices.
                 </p>
-                <button>See More</button>
+                <NavLink to="/building-of-websites-and-apps-for-businesses">
+                  <button>See More</button>
+                </NavLink>
               </div>
             </div>
           </div>
 
-          <div className="content-blocks">
+          <div className={styles.contentBlock}>
             <div className={styles.block}>
               <img
                 src="./images/programming-of-robots.png"
@@ -96,12 +100,14 @@ function Solutions() {
                   tasks such as assembly and welding often lead to
                   inconsistencies and delays.
                 </p>
-                <button>See More</button>
+                <NavLink to="/programming-of-robots">
+                  <button>See More</button>
+                </NavLink>
               </div>
             </div>
           </div>
 
-          <div className="content-blocks">
+          <div className={styles.contentBlock}>
             <div className={styles.block}>
               <img
                 src="./images/programming-of-drones.png"
@@ -115,12 +121,14 @@ function Solutions() {
                   tackling the complexities of autonomous flight, real-time
                   obstacle detection, and precise GPS tracking.
                 </p>
-                <button>See More</button>
+                <NavLink to="/programming-of-drones-and-aircraft">
+                  <button>See More</button>
+                </NavLink>
               </div>
             </div>
           </div>
 
-          <div className="content-blocks">
+          <div className={styles.contentBlock}>
             <div className={styles.block}>
               <img
                 src="./images/programming-of-vehicles.png"
@@ -135,12 +143,14 @@ function Solutions() {
                   telematics integration, providing real-time data on vehicle
                   location, usage, and health.
                 </p>
-                <button>See More</button>
+                <NavLink to="/programming-of-vehicles">
+                  <button>See More</button>
+                </NavLink>
               </div>
             </div>
           </div>
 
-          <div className="content-blocks">
+          <div className={styles.contentBlock}>
             <div className={styles.block}>
               <img
                 src="./images/manufacturing-of-AI.png"
@@ -155,12 +165,14 @@ function Solutions() {
                   systems offer automation of repetitive tasks, streamlining of
                   operations, and a significant boost in productivity.
                 </p>
-                <button>See More</button>
+                <NavLink to="/manufacturing-of-ai">
+                  <button>See More</button>
+                </NavLink>
               </div>
             </div>
           </div>
 
-          <div className="content-blocks">
+          <div className={styles.contentBlock}>
             <div className={styles.block}>
               <img
                 src="./images/manufacturing-of-satellite.png"
@@ -175,12 +187,15 @@ function Solutions() {
                   manufacturing techniques such as additive manufacturing (3D
                   printing) and automated assembly.
                 </p>
-                <button>See More</button>
+                <NavLink to="/manufacturing-of-satellites">
+                  <button>See More</button>
+                </NavLink>
               </div>
             </div>
           </div>
         </Carousel>
       </div>
+      <Footer />
     </>
   );
 }
