@@ -58,3 +58,25 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .service {
+    flex-direction: column;
+  }
+
+  .getIntouch {
+    width: auto;
+    padding: 10px 30px;
+    font-size: 1.2em;
+  }
+
+  .content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+}

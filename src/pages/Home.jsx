@@ -1,7 +1,10 @@
 import Footer from "../components/Footer";
+import GetInTouch from "../components/GetInTouch";
 import Header from "../components/Header";
 import Innovation from "../components/Innovation";
 import Main from "../components/Main";
+import OurServices from "../components/OurServices";
+import Testimony from "../components/Testimony";
 import styles from "./Team.module.css";
 
 function Home() {
@@ -180,9 +183,9 @@ function Home() {
         </div>
       </div>
 
-      <section>
-        <h1>Testimony From Customers </h1>
-      </section>
+      <Testimony />
+      <OurServices />
+      <GetInTouch />
       <Footer />
     </>
   );

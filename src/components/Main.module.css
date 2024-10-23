@@ -1,12 +1,17 @@
 .main {
   text-align: center;
   padding: 60px 0;
-  background-color: #e5e5f7ca;
+  background-color: #fbf6fcca;
   opacity: 0.8;
-  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-  background-size: 10px 10px;
-  clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
-  height: 500px;
+
+  background-image: url(../../public/images/leftRibbon.png),
+    url(../../public/images/rightRibbon.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+  height: 520px;
+  margin-top: 10px;
 }
 
 .main h1 {

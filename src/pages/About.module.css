@@ -17,12 +17,18 @@
 }
 
 .intro h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
 .intro p {
   font-size: 1.1em;
+  margin: 20px 0;
+}
+
+.abtImg {
+  width: 100%;
 }
 
 .intro button {
@@ -83,13 +89,16 @@
 .values,
 .story {
   text-align: center;
+  margin: 100px 0;
 }
 
 .values h1,
-.story h1 {
+.story h1,
+.team h1 {
   font-size: 4em;
   font-weight: 900;
   text-transform: capitalize;
+  margin-bottom: 30px;
 }
 
 .valueBox {
@@ -128,4 +137,72 @@
   align-items: center;
   justify-content: space-between;
   gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.founderImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.founder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.founder img {
+  margin-right: 10px;
+}
+
+.button {
+  cursor: pointer;
+  border-style: none;
+  color: #fff;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #6a6abc 0%, #8763c0 100%);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .valueBox,
+  .team {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .but,
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .story {
+    text-align: left;
+  }
+
+  .story h1,
+  .values h1,
+  .team h1,
+  .intro h1 {
+    font-size: 2em;
+  }
 }

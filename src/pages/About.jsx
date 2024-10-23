@@ -1,13 +1,13 @@
 import Footer from "../components/Footer";
+import GetInTouch from "../components/GetInTouch";
 import Header from "../components/Header";
 import styles from "./About.module.css";
 
 function About() {
   return (
     <div className={styles.bck}>
+      <Header />
       <div className={styles.about}>
-        <Header />
-
         <section className={styles.intro}>
           <div>
             <h1>about Cypher wave technology </h1>
@@ -15,26 +15,28 @@ function About() {
               Empowering Businesses Through Revolutionary Tech <br /> The Future
               Begins with Cypher Wave.
             </p>
-            <button> Get Started</button>
+            <button>Get Started</button>
           </div>
 
           <div>
-            <img src="./images/about.png" />
+            <img className={styles.abtImg} src="./images/about.png" />
           </div>
         </section>
 
         <div className={styles.defineCypherwave}>
           <p>
             We are the leading technological company in Africa seeking to lead
-            Africa into the next phase of technology. At Cypher Wave Technology,
+            Africa into the next phase of technology. At Cypher Wave Technology,{" "}
+            <br />
             we specialize in app and website development, drone sales and
-            repairs, and programming robots and AI devices. Our advanced
+            repairs, and programming robots and AI devices. <br /> Our advanced
             solutions empower businesses across various industries, enhancing
-            productivity and driving sustainable growth. From creating
-            user-friendly applications and modern websites to providing
-            high-performance drones and precision robotic programming, we are
-            committed to revolutionizing Africa&apos;s tech landscape and
-            maintaining a competitive edge on the global stage.
+            productivity and driving sustainable growth.
+            <br /> From creating user-friendly applications and modern websites
+            to providing high-performance drones and precision robotic
+            programming, <br /> we are committed to revolutionizing
+            Africa&apos;s tech landscape and maintaining a competitive edge on
+            the global stage.
           </p>
         </div>
 
@@ -175,23 +177,51 @@ function About() {
               <h1>the team</h1>
               <p>
                 At Cypher Wave Technology, our success stems from a talented
-                team of engineers, developers, and support staff. Guided by
-                visionary leaders, we create cutting-edge solutions and ensure
+                team of engineers, developers, <br /> and support staff. Guided
+                by visionary leaders, we create cutting-edge solutions and
+                ensure <br />
                 product reliability. Our robotics and AI experts enhance
-                precision and efficiency, while our customer support team
+                precision and efficiency, while our <br /> customer support team
                 provides exceptional service. Together, we lead Africa into the
-                next phase of technological advancement.s
+                next <br /> phase of technological advancements.
               </p>
             </div>
             <div>
-              <img alt="abraham fred" />
-              <img alt="ovie nathaniel" />
+              <div>
+                <div className={styles.founder}>
+                  <img
+                    className={styles.founderImg}
+                    alt="abraham fred"
+                    src="images/abraham.jpg"
+                  />
+                  <div>
+                    <p>Founder & CEO </p>
+                    <img src="images/x-white.png" />
+                    <img src="images/linkedIn-white.png" />
+                  </div>
+                </div>
+                <div className={styles.founder}>
+                  <img
+                    className={styles.founderImg}
+                    alt="ovie nathaniel"
+                    src="images/ovie.png"
+                  />
+                  <div>
+                    <p>Co-Founder & CTO </p>
+                    <img src="images/x-white.png" />
+                    <img src="images/linkedIn-white.png" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <button>Find More Team</button>
+          <div className={styles.but}>
+            <button className={styles.button}>Find More Team</button>
+          </div>
         </section>
-        <Footer />
       </div>
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }
