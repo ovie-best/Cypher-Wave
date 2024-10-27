@@ -71,11 +71,9 @@ function Solutions() {
               <div className={styles.blockInfo}>
                 <h2>Building Of Websites And App For Business</h2>
                 <p>
-                  Cypher Wave Technology addresses critical challenges
-                  businesses face in building and maintaining websites and apps.
-                  We specialize in creating modern, responsive designs that
-                  enhance user experience, ensuring your online presence is
-                  visually appealing and accessible across all devices.
+                  Cypher Wave Technology addresses challenges businesses 
+                  face in building and maintaining websites/apps. We create 
+                  designs that make user experience, simply memorable.
                 </p>
                 <NavLink to="/building-of-websites-and-apps-for-businesses">
                   <button>See More</button>

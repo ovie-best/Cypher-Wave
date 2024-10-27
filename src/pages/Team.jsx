@@ -37,11 +37,18 @@ function Team() {
           </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Frontend Developer" />
+            <TeamMember name="Ovie" role="Front-End Developer" />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
+            <TeamMember name="Osas" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/abraham2.jpg" />
+            <TeamMember name="Abraham" role="Team Lead" />
+          </div><div className={styles.carouselCard}>
+            <img src="images/chukwufumnanya1.jpg" />
+            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
           </div>
 
           <div className={styles.carouselCard}>
@@ -50,11 +57,38 @@ function Team() {
           </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Frontend Developer" />
+            <TeamMember name="Ovie" role="Front-End Developer" />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
+            <TeamMember name="Osas" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/abraham2.jpg" />
+            <TeamMember name="Abraham" role="Team Lead" />
+          </div><div className={styles.carouselCard}>
+            <img src="images/chukwufumnanya1.jpg" />
+            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
+          </div>
+          
+          <div className={styles.carouselCard}>
+            <img src="images/nosa.png" />
             <TeamMember name="Nosa" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/ovie.png" />
+            <TeamMember name="Ovie" role="Front-End Developer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/osas.png" />
+            <TeamMember name="Osas" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/abraham2.jpg" />
+            <TeamMember name="Abraham" role="Team Lead" />
+          </div><div className={styles.carouselCard}>
+            <img src="images/chukwufumnanya1.jpg" />
+            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
           </div>
 
           <div className={styles.carouselCard}>
@@ -63,11 +97,18 @@ function Team() {
           </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Frontend Developer" />
+            <TeamMember name="Ovie" role="Front-End Developer" />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
+            <TeamMember name="Osas" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/abraham2.jpg" />
+            <TeamMember name="Abraham" role="Team Lead" />
+          </div><div className={styles.carouselCard}>
+            <img src="images/chukwufumnanya1.jpg" />
+            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
           </div>
         </div>
       </div>

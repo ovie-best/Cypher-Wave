@@ -20,7 +20,7 @@ function Home() {
             <img src="./images/expert-team.png" />
             <h2>Expert Team</h2>
             <p>
-              A highly skilled team of developers, engineers, and tech expert
+              A highly skilled team of developers, engineers, and tech experts
               dedicated to delivering top-notch solutions.
             </p>
           </div>
@@ -71,11 +71,11 @@ function Home() {
             </p>
           </div>
 
-          <div className={styles.innovationCarouselCard}>
+          <div className={styles.carouselCard}>
             <img src="./images/expert-team.png" />
             <h2>Expert Team</h2>
             <p>
-              A highly skilled team of developers, engineers, and tech expert
+              A highly skilled team of developers, engineers, and tech experts
               dedicated to delivering top-notch solutions.
             </p>
           </div>
@@ -126,11 +126,11 @@ function Home() {
             </p>
           </div>
 
-          <div className={styles.innovationCarouselCard}>
+          <div className={styles.carouselCard}>
             <img src="./images/expert-team.png" />
             <h2>Expert Team</h2>
             <p>
-              A highly skilled team of developers, engineers, and tech expert
+              A highly skilled team of developers, engineers, and tech experts
               dedicated to delivering top-notch solutions.
             </p>
           </div>

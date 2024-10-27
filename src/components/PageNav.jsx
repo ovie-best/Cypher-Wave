@@ -17,7 +17,7 @@ function PageNav() {
         </li>
         <li>
           <NavLink className={styles.navli} to="/services">
-            Producs/Services
+            Products/Services
           </NavLink>
         </li>
         <li>

@@ -27,12 +27,12 @@ function About() {
           <p>
             We are the leading technological company in Africa seeking to lead
             Africa into the next phase of technology. At Cypher Wave Technology,{" "}
-            <br />
+            <br/>
             we specialize in app and website development, drone sales and
             repairs, and programming robots and AI devices. <br /> Our advanced
             solutions empower businesses across various industries, enhancing
-            productivity and driving sustainable growth.
-            <br /> From creating user-friendly applications and modern websites
+            productivity and driving sustainable growth.<br />
+            From creating user-friendly applications and modern websites
             to providing high-performance drones and precision robotic
             programming, <br /> we are committed to revolutionizing
             Africa&apos;s tech landscape and maintaining a competitive edge on
@@ -41,7 +41,7 @@ function About() {
         </div>
 
         <section className={styles.mission}>
-          <img src="./images/mission.png" />
+          <img src="./images/mission.svg" />
           <h2>our mission </h2>
           <p>
             At Cypher Wave Technology, our mission is to revolutionize
@@ -54,7 +54,7 @@ function About() {
         </section>
 
         <section className={styles.vision}>
-          <img src="./images/vision.png" />
+          <img src="./images/vision.svg" />
           <h2>our vision</h2>
           <p>
             Our vision at Cypher Wave Technology is to be the leading force in
@@ -70,7 +70,7 @@ function About() {
           <h1>Our Values</h1>
           <div className={styles.valueBox}>
             <div className={styles.quality}>
-              <img src="./images/quality.png" />
+              <img src="./images/quality.svg" />
               <h2>Quality</h2>
               <p>
                 Quality is at the core of everything we do. We prioritize
@@ -85,13 +85,14 @@ function About() {
             </div>
 
             <div className={styles.innovation}>
-              <img src="./images/innovation.png" />
+              <img src="./images/innovation.svg" />
               <h2>Innovation</h2>
               <p>
                 At Cypher Wave Technology, we are driven by a passion for
                 innovation. We constantly push the boundaries of what is
                 possible, developing cutting-edge solutions that drive progress
-                and transformation. Our commitment to continuous improvement
+                and transformation. 
+                Our commitment to continuous improvement
                 ensures that we remain at the forefront of technological
                 advancements, providing our clients with the most advanced and
                 effective tools to achieve their goals.
@@ -99,7 +100,7 @@ function About() {
             </div>
 
             <div className={styles.integrity}>
-              <img src="./images/integrity.png" />
+              <img src="./images/integrity.svg" />
               <h2>Integrity</h2>
               <p>
                 We conduct our business with the highest standards of honesty
@@ -120,11 +121,13 @@ function About() {
             the technological landscape of Africa. From our humble beginnings as
             a small startup, we have grown into the continent&apos;s leading
             tech company, driven by a passion for innovation and a commitment to
-            excellence. Our journey began with a team of dedicated engineers and
+            excellence. 
+            Our journey began with a team of dedicated engineers and
             visionaries who shared a common goal: to harness the power of
             technology to solve real-world problems and drive sustainable
             growth.
           </p>
+          <br />
           <p>
             In the early days, we focused on developing high-quality
             applications and websites that catered to the unique needs of
@@ -132,36 +135,43 @@ function About() {
             their reliability, user-friendliness, and impact on business
             efficiency. As we grew, we expanded our services to include drone
             sales and repairs, addressing the rising demand for advanced aerial
-            technology in agriculture, real estate, and other sectors. Our
-            drones, known for their durability and cutting-edge features, soon
-            became a preferred choice for professionals seeking superior aerial
-            performance.
+            technology in agriculture, real estate, and other sectors. 
           </p>
-          <p>
-            Recognizing the transformative potential of robotics and artificial
+          <br/>
+          <p>  
+            Our drones, known for their durability and cutting-edge features, soon
+            became a preferred choice for professionals seeking superior aerial
+            performance. Recognizing the transformative potential of robotics and artificial
             intelligence, we ventured into programming robots and AI devices.
             Our innovative solutions in this field have automated complex and
             repetitive tasks across various industries, enhancing precision,
-            productivity, and safety. From manufacturing to healthcare, our
+            productivity, and safety. 
+          </p>
+          <br/>
+          <p>
+            From manufacturing to healthcare, our
             robotic programming services have enabled businesses to achieve new
             levels of efficiency and excellence.
-          </p>
-          <p>
             Throughout our journey, we have remained steadfast in our mission to
             empower African businesses with state-of-the-art technology. Our
             commitment to quality, integrity, and customer satisfaction has been
-            the cornerstone of our success. We believe in building lasting
+            the cornerstone of our success. 
+          </p>
+          <br />
+          <p>
+            We believe in building lasting
             relationships with our clients, understanding their needs, and
             providing tailored solutions that drive tangible results.
-          </p>
-          <p>
             Our growth and achievements would not have been possible without the
             trust and support of our clients, partners, and the communities we
-            serve. We are deeply grateful for their continued faith in our
+            serve. 
+            <br />
+            We are deeply grateful for their continued faith in our
             vision and capabilities. As we look to the future, we are excited to
             lead Africa into the next phase of technological advancement,
             fostering innovation, sustainability, and inclusive growth.
           </p>
+          <br />
           <p>
             Cypher Wave Technology is more than just a tech company; we are a
             catalyst for change, a partner in progress, and a beacon of
@@ -180,10 +190,11 @@ function About() {
                 team of engineers, developers, <br /> and support staff. Guided
                 by visionary leaders, we create cutting-edge solutions and
                 ensure <br />
-                product reliability. Our robotics and AI experts enhance
+                product reliability. <br />Our robotics and AI experts enhance
                 precision and efficiency, while our <br /> customer support team
-                provides exceptional service. Together, we lead Africa into the
-                next <br /> phase of technological advancements.
+                provides exceptional service. 
+                <br />Together, we lead Africa into the
+                next phase of technological advancements.
               </p>
             </div>
             <div>
