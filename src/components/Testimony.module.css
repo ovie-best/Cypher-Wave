@@ -59,3 +59,13 @@
 .rR1 {
   width: 70%;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .rR1 {
+    width: 100%;
+  }
+}

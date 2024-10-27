@@ -10,3 +10,54 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.toggler {
+  display: none;
+}
+
+.mobilenav {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .mobilenav {
+    display: flex;
+  }
+  .headerContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+
+  .desktopnav {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+  }
+
+  .toggler {
+    position: absolute;
+    right: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    z-index: 2;
+  }
+
+  .toggler button {
+    border-style: none;
+    background-color: transparent;
+  }
+}

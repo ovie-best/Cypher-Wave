@@ -108,3 +108,16 @@
 .contactInfo p {
   font-size: 1.2em;
 }
+
+@media screen and (max-width: 1100px) {
+  .contactFlex {
+    flex-direction: column;
+    gap: 30px;
+    margin: 170px 0;
+  }
+
+  .contactUs,
+  .form {
+    width: 80%;
+  }
+}

@@ -12,3 +12,10 @@
 .navli {
   text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+  .navLinks {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

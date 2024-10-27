@@ -72,7 +72,7 @@ function Team() {
         </div>
       </div>
 
-      <p>
+      <p className={styles.abtTeam}>
         We&apos;ve been blown away by the support from Untitled. We suggested an
         improvement to <br /> our account manager and they implemented it a few
         days!
