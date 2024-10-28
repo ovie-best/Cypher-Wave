@@ -11,4 +11,7 @@
 
 .btn:hover {
   cursor: pointer;
+  background: linear-gradient(180deg, #9e9efc 0%, #a190e1 100%);
+  transition: 0.2s linear;
+  transform: scale(110%);
 }

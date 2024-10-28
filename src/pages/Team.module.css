@@ -122,3 +122,40 @@
 .teamMember .socials {
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 900px) {
+  .teamIntro {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .team h1 {
+    font-size: 2.5em;
+  }
+
+  .teamIntro,
+  .abtTeam {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .teamIntro {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .br {
+    display: none;
+  }
+
+  .team h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+
+  .teamCarouselTrack {
+    animation: slide 8s linear infinite;
+  }
+}

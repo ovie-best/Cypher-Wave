@@ -59,6 +59,13 @@
   cursor: pointer;
 }
 
+.getIntouch:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #9e9efc 0%, #c4b5fd 100%);
+  transform: scale(110%);
+  transition: 0.3s ease-out;
+}
+
 @media screen and (max-width: 900px) {
   .service {
     flex-direction: column;

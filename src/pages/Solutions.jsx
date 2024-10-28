@@ -8,59 +8,83 @@ import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
 
 function Solutions() {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 2,
-      slidesToSlide: 2, // optional, default to 1.
-      partialVisibilityGutter: 40,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2, // optional, default to 1.
-      partialVisibilityGutter: 40,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1, // optional, default to 1.
-      partialVisibilityGutter: 40,
-    },
-  };
+  // const responsive = {
+  //   desktop: {
+  //     breakpoint: { max: 3000, min: 1024 },
+  //     items: 2,
+  //     slidesToSlide: 2, // optional, default to 1.
+  //     partialVisibilityGutter: 40,
+  //   },
+  //   tablet: {
+  //     breakpoint: { max: 1024, min: 464 },
+  //     items: 2,
+  //     slidesToSlide: 2, // optional, default to 1.
+  //     partialVisibilityGutter: 40,
+  //   },
+  //   mobile: {
+  //     breakpoint: { max: 464, min: 0 },
+  //     items: 1,
+  //     slidesToSlide: 1, // optional, default to 1.
+  //     partialVisibilityGutter: 40,
+  //   },
+  // };
 
   return (
     <>
       <Header />
-
-      <div className={styles.carousel}>
+      <div className={styles.carouselBox}>
         <Carousel
           additionalTransfrom={0}
           arrows
+          autoPlaySpeed={3000}
           centerMode={false}
-          containerClass="container"
+          className=""
+          containerClass="container-with-dots"
+          dotListClass=""
           draggable
-          focusOnSelect
+          focusOnSelect={false}
           infinite
+          itemClass=""
           keyBoardControl
           minimumTouchDrag={80}
           pauseOnHover
-          responsive={responsive}
-          swipeable
-          sliderClass=""
-          showDots
-          renderDotsOutside
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 2,
+              partialVisibilityGutter: 40,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+              partialVisibilityGutter: 30,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 464,
+              },
+              items: 2,
+              partialVisibilityGutter: 30,
+            },
+          }}
+          rewind={false}
+          rewindWithAnimation={false}
           rtl={false}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          customTransition="all 3"
-          transitionDuration={500}
-          // containerClass="carousel-container"
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
-          rewindWithAnimation
-          // shouldResetAutoplay={true}
-          rewind={true}
+          shouldResetAutoplay
+          showDots={false}
+          sliderClass=""
+          slidesToSlide={1}
+          swipeable
         >
           <div className={styles.contentBlock}>
             <div className={styles.block}>
@@ -71,9 +95,9 @@ function Solutions() {
               <div className={styles.blockInfo}>
                 <h2>Building Of Websites And App For Business</h2>
                 <p>
-                  Cypher Wave Technology addresses challenges businesses 
-                  face in building and maintaining websites/apps. We create 
-                  designs that make user experience, simply memorable.
+                  Cypher Wave Technology addresses challenges businesses face in
+                  building and maintaining websites/apps. We create designs that
+                  make user experience, simply memorable.
                 </p>
                 <NavLink to="/building-of-websites-and-apps-for-businesses">
                   <button>See More</button>

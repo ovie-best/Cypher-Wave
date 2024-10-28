@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import styles from "./Services.module.css";
@@ -135,7 +136,9 @@ function Service() {
       </section>
 
       <div className={styles.contact}>
-        <button className={styles.getIntouch}>Get In Touch</button>
+        <Link to="/contact">
+          <button className={styles.getIntouch}>Get In Touch</button>
+        </Link>
       </div>
     </>
   );

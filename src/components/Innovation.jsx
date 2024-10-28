@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import styles from "./Innovation.module.css";
 
@@ -7,7 +8,10 @@ function Innovation() {
       <div className={styles.innovateIntro}>
         <h1>Unleashing the Power of Innovation</h1>
         <p>Pioneering Apps, Websites, Drones, AI and software, and so on</p>
-        <Button>Know More</Button>
+
+        <Link to="services">
+          <Button>Know More</Button>
+        </Link>
       </div>
     </section>
   );

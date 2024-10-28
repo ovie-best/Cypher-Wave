@@ -16,6 +16,13 @@
   padding-top: 3em;
 }
 
+.introBck {
+  background-image: url(./images/abtbg1.png), url(./images/abtbg2.png),
+    url(./images/abtbg3.png);
+  background-position: top right, center left, bottom right;
+  background-repeat: no-repeat;
+}
+
 .intro h1 {
   font-size: 2.3em;
   font-weight: 800;
@@ -48,6 +55,8 @@
 .defineCypherwave {
   text-align: center;
   padding: 40px 0;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .mission {
@@ -178,6 +187,13 @@
   padding: 10px 20px;
 }
 
+.button:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #9e9efc 0%, #a190e1 100%);
+  transition: 0.2s linear;
+  transform: scale(110%);
+}
+
 .but {
   display: flex;
   justify-content: center;
@@ -189,6 +205,10 @@
   .valueBox,
   .team {
     flex-direction: column;
+  }
+
+  .defineCypherwave {
+    width: 85%;
   }
 }
 
@@ -213,5 +233,19 @@
   .team h1,
   .intro h1 {
     font-size: 2em;
+  }
+
+  .defineCypherwave {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .br {
+    display: none;
+  }
+
+  .introBck {
+    background-size: 80%;
   }
 }

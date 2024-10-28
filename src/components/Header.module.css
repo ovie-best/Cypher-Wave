@@ -34,6 +34,7 @@
     width: 100%;
     height: 100vh;
     z-index: 1;
+    margin-bottom: 20px;
   }
 
   .desktopnav {
@@ -49,10 +50,12 @@
 
   .toggler {
     position: absolute;
-    right: 30px;
+    width: 90%;
+    margin: 0 auto;
+    /* right: 30px; */
     display: flex;
-    align-items: end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
     z-index: 2;
   }
 

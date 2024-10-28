@@ -6,6 +6,8 @@ import PageNav from "./PageNav";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
+import { FaBars } from "react-icons/fa";
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -40,7 +42,9 @@ function Header() {
       )}
 
       <div className={styles.toggler}>
-        <button onClick={handleToggle}> {isOpen ? `✖️` : `🟰`}</button>
+        <Logo />
+
+        <button onClick={handleToggle}> {isOpen ? `✖️` : <FaBars />}</button>
       </div>
     </header>
   );

@@ -7,7 +7,7 @@ export default function Testimony() {
         <div className={styles.cont2}>
           <div className={styles.quotes}>
             <div>
-              <img src="images/quotes.png" />
+              <img src="images/quotes.png" className={styles.quotesImg} />
             </div>
             <h1>
               Testimony From <br /> Customers

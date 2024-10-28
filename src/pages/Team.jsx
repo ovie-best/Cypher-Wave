@@ -24,9 +24,12 @@ function Team() {
         </h1>
         <p>
           Our philosophy is simple, hire great people and give them the
-          resources <br /> and support to do their best work
+          resources <br className={styles.br} /> and support to do their best
+          work
         </p>
-        <Button>Get In Touch</Button>
+        <Link to="/contact">
+          <Button>Get In Touch</Button>
+        </Link>
       </div>
 
       <div className={styles.teamCarouselContainer}>
@@ -46,7 +49,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember name="Abraham" role="Team Lead" />
-          </div><div className={styles.carouselCard}>
+          </div>
+          <div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
           </div>
@@ -66,27 +70,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember name="Abraham" role="Team Lead" />
-          </div><div className={styles.carouselCard}>
-            <img src="images/chukwufumnanya1.jpg" />
-            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
-          </div>
-          
-          <div className={styles.carouselCard}>
-            <img src="images/nosa.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
           </div>
           <div className={styles.carouselCard}>
-            <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Front-End Developer" />
-          </div>
-          <div className={styles.carouselCard}>
-            <img src="images/osas.png" />
-            <TeamMember name="Osas" role="UI/UX Designer" />
-          </div>
-          <div className={styles.carouselCard}>
-            <img src="images/abraham2.jpg" />
-            <TeamMember name="Abraham" role="Team Lead" />
-          </div><div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
           </div>
@@ -106,7 +91,29 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember name="Abraham" role="Team Lead" />
-          </div><div className={styles.carouselCard}>
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/chukwufumnanya1.jpg" />
+            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
+          </div>
+
+          <div className={styles.carouselCard}>
+            <img src="images/nosa.png" />
+            <TeamMember name="Nosa" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/ovie.png" />
+            <TeamMember name="Ovie" role="Front-End Developer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/osas.png" />
+            <TeamMember name="Osas" role="UI/UX Designer" />
+          </div>
+          <div className={styles.carouselCard}>
+            <img src="images/abraham2.jpg" />
+            <TeamMember name="Abraham" role="Team Lead" />
+          </div>
+          <div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
           </div>
@@ -115,12 +122,12 @@ function Team() {
 
       <p className={styles.abtTeam}>
         We&apos;ve been blown away by the support from Untitled. We suggested an
-        improvement to <br /> our account manager and they implemented it a few
-        days!
+        improvement to <br className={styles.br} /> our account manager and they
+        implemented it a few days!
       </p>
 
       <div className={styles.ceo}>
-        <img src="images/ab.png" />
+        <img src="images/teamCeo.png" alt="CEO and Founder" />
         <p>
           <strong>ABRAHAM FRED</strong> <br />
           <span className={styles.textPurple}> Founder & CEO</span>
