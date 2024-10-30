@@ -47,3 +47,9 @@ h6 {
 .Typewriter {
   display: inline;
 }
+
+@media screen and (max-width: 560px) {
+  * {
+    font-size: 0.98em;
+  }
+}
