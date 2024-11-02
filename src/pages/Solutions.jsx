@@ -93,9 +93,9 @@ function Solutions() {
                 alt="Website and App Development"
               />
               <div className={styles.blockInfo}>
-                <h2>Building Of Websites And App For Business</h2>
-                <p>
-                  Cypher Wave Technology addresses challenges businesses face in
+                <h2 style={{fontSize: "1.4em"}}>Building Of Websites And App For Business</h2>
+                <p style={{fontSize: "0.88em"}}>
+                  Cypher Wave Technology addresses challenges businesses faced in
                   building and maintaining websites/apps. We create designs that
                   make user experience, simply memorable.
                 </p>
@@ -114,13 +114,12 @@ function Solutions() {
               />
               <div className={styles.blockInfo}>
                 <h2>Programming of Robots</h2>
-                <p>
+                <p style={{fontSize: "0.88em"}}>
                   Cypher Wave Technology provides comprehensive solutions to
-                  address the diverse challenges faced in robot programming
-                  across various industries. One significant problem is the
-                  inefficiency in manufacturing processes, where repetitive
-                  tasks such as assembly and welding often lead to
-                  inconsistencies and delays.
+                  the diverse challenges faced in robot programming in various 
+                  industries. One problem is the inefficiency in manufacturing 
+                  processes, where repetitive tasks such as assembly and welding 
+                  often cause inconsistencies and delays.
                 </p>
                 <NavLink to="/programming-of-robots">
                   <button>See More</button>
@@ -158,7 +157,7 @@ function Solutions() {
               />
               <div className={styles.blockInfo}>
                 <h2>Programming of Vehicles</h2>
-                <p>
+                <p style={{fontSize: "0.88em"}}>
                   Cypher Wave Technology addresses several challenges related to
                   vehicle programming with innovative solutions. For inefficient
                   fleet management, we enhance operations with advanced
@@ -180,10 +179,10 @@ function Solutions() {
               />
               <div className={styles.blockInfo}>
                 <h2>Manufacturing of Ai for Business</h2>
-                <p>
-                  Cypher Wave Technology addresses various key challenges across
+                <p style={{fontSize: "0.88em"}}>
+                  Cypher Wave Technology addresses various challenges across
                   different sectors with innovative and efficient solutions. For
-                  businesses grappling with inefficient processes, our AI-driven
+                  businesses dealing with inefficient processes, our AI-driven
                   systems offer automation of repetitive tasks, streamlining of
                   operations, and a significant boost in productivity.
                 </p>
@@ -202,7 +201,7 @@ function Solutions() {
               />
               <div className={styles.blockInfo}>
                 <h2>Manufacturing of Satellite</h2>
-                <p>
+                <p style={{fontSize: "0.9em"}}>
                   Satellite manufacturing often involves high costs and
                   inefficiencies due to complex components and processes. Cypher
                   Wave Technology addresses this by leveraging advanced
