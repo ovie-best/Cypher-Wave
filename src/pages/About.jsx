@@ -212,20 +212,28 @@ function About() {
                     />
                     <div>
                       <p>Founder & CEO </p>
-                      <img src="images/x-white.png" />
-                      <img src="images/linkedIn-white.png" />
+                      <Link to="https://x.com/AbrahamFred12">
+                        <img src="images/x-white.png" />
+                      </Link>
+                      <Link to="https://www.linkedin.com/in/abraham-fred-98195219a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                        <img src="images/linkedIn-white.png" />
+                      </Link>
                     </div>
                   </div>
                   <div className={styles.founder}>
                     <img
                       className={styles.founderImg}
                       alt="ovie nathaniel"
-                      src="images/ovie.png"
+                      src="images/ovie-cto.png"
                     />
                     <div>
                       <p>Co-Founder & CTO </p>
-                      <img src="images/x-white.png" />
-                      <img src="images/linkedIn-white.png" />
+                      <Link to="https://x.com/oviebest_2">
+                        <img src="images/x-white.png" />
+                      </Link>
+                      <Link to="www.linkedin.com/in/ovie-nathaniel">
+                        <img src="images/linkedIn-white.png" />
+                      </Link>
                     </div>
                   </div>
                 </div>

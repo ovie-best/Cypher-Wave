@@ -36,86 +36,178 @@ function Team() {
         <div className={styles.teamCarouselTrack}>
           <div className={styles.carouselCard}>
             <img src="images/nosa.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
+            <TeamMember
+              name="Nosa"
+              role="UI/UX Designer"
+              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
+            />
           </div>
           <div className={styles.carouselCard}>
-            <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Front-End Developer" />
+            <img src="images/ovie.png" alt="ovie" />
+            <TeamMember
+              name="Ovie"
+              role="Front-End Developer"
+              xHandle="https://x.com/oviebest_2"
+              linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
+            />
           </div>
           <div className={styles.carouselCard}>
-            <img src="images/osas.png" />
-            <TeamMember name="Osas" role="UI/UX Designer" />
+            <img src="images/osas.png" alt="osas" />
+            <TeamMember
+              name="Osas"
+              role="UI/UX Designer"
+              xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
+              linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
-            <TeamMember name="Abraham" role="Team Lead" />
+            <TeamMember
+              name="Abraham"
+              role="Team Lead"
+              xHandle="https://x.com/AbrahamFred12"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
-            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
+            <TeamMember
+              name="Chukwufumnanya"
+              role="Back-End Developer"
+              linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
+            />
           </div>
 
           <div className={styles.carouselCard}>
             <img src="images/nosa.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
+            <TeamMember
+              name="Nosa"
+              role="UI/UX Designer"
+              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Front-End Developer" />
+            <TeamMember
+              name="Ovie"
+              role="Front-End Developer"
+              xHandle="https://x.com/oviebest_2"
+              linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
-            <TeamMember name="Osas" role="UI/UX Designer" />
+            <TeamMember
+              name="Osas"
+              role="UI/UX Designer"
+              xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
+              linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
-            <TeamMember name="Abraham" role="Team Lead" />
+            <TeamMember
+              name="Abraham"
+              role="Team Lead"
+              xHandle="https://x.com/AbrahamFred12"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
-            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
+            <TeamMember
+              name="Chukwufumnanya"
+              role="Back-End Developer"
+              linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
+            />
           </div>
 
           <div className={styles.carouselCard}>
             <img src="images/nosa.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
+            <TeamMember
+              name="Nosa"
+              role="UI/UX Designer"
+              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Front-End Developer" />
+            <TeamMember
+              name="Ovie"
+              role="Front-End Developer"
+              xHandle="https://x.com/oviebest_2"
+              linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
-            <TeamMember name="Osas" role="UI/UX Designer" />
+            <TeamMember
+              name="Osas"
+              role="UI/UX Designer"
+              xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
+              linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
-            <TeamMember name="Abraham" role="Team Lead" />
+            <TeamMember
+              name="Abraham"
+              role="Team Lead"
+              xHandle="https://x.com/AbrahamFred12"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
-            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
+            <TeamMember
+              name="Chukwufumnanya"
+              role="Back-End Developer"
+              linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
+            />
           </div>
 
           <div className={styles.carouselCard}>
             <img src="images/nosa.png" />
-            <TeamMember name="Nosa" role="UI/UX Designer" />
+            <TeamMember
+              name="Nosa"
+              role="UI/UX Designer"
+              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
+              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
-            <TeamMember name="Ovie" role="Front-End Developer" />
+            <TeamMember
+              name="Ovie"
+              role="Front-End Developer"
+              xHandle="https://x.com/oviebest_2"
+              linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
-            <TeamMember name="Osas" role="UI/UX Designer" />
+            <TeamMember
+              name="Osas"
+              role="UI/UX Designer"
+              xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
+              linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
-            <TeamMember name="Abraham" role="Team Lead" />
+            <TeamMember
+              name="Abraham"
+              role="Team Lead"
+              xHandle="https://x.com/AbrahamFred12"
+            />
           </div>
           <div className={styles.carouselCard}>
             <img src="images/chukwufumnanya1.jpg" />
-            <TeamMember name="Chukwufumnanya" role="Back-End Developer" />
+            <TeamMember
+              name="Chukwufumnanya"
+              role="Back-End Developer"
+              linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
+            />
           </div>
         </div>
       </div>
@@ -133,7 +225,7 @@ function Team() {
           <span className={styles.textPurple}> Founder & CEO</span>
         </p>
         <div className={styles.socials}>
-          <Link to="*">
+          <Link to="https://x.com/AbrahamFred12">
             <img src="images/x.png" alt="x" />
           </Link>
           <Link to="*">
