@@ -23,7 +23,7 @@ function GetInTouch() {
             </div>
             <div>
               <p>Email</p>
-              <p>cypherwavetechnology@gmail.com</p>
+              <p>Cypherwave66@gmail.com</p>
             </div>
           </div>
         </div>
