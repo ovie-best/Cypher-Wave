@@ -25,10 +25,13 @@ function Contact(props) {
       axios
         .post("http://127.0.0.1:8000/api/contact/", contactData)
         .then((result) => {
-          console.log(result);
+          setName('')
+          setEmail('')
+          setPhone('')
+          setMsg('')
         });
     } catch (error) {
-      console.log(error);
+      console.log("Problem e no dey finish");
     }
   };
   return (
@@ -56,7 +59,7 @@ function Contact(props) {
               <img src="./images/mail.png" />
               <span>
                 <strong>Email: </strong>
-                cypherwavetechnology@gmail.com
+                Cypherwave66@gmail.com
               </span>
             </p>
             <div className={styles.contactImg}>
