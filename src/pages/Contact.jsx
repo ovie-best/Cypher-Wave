@@ -24,12 +24,18 @@ function Contact(props) {
 
     try {
       axios
-        .post("http://127.0.0.1:8000/api/contact/", contactData)
+        .post(
+          "https://nevertrustanyone.pythonanywhere.com/api/contact/",
+          contactData
+        )
         .then((result) => {
-          console.log(result);
+          setName("");
+          setEmail("");
+          setPhone("");
+          setMsg("");
         });
     } catch (error) {
-      console.log(error);
+      console.log("Problem e no dey finish");
     }
   };
   return (
