@@ -186,7 +186,7 @@ function About() {
           <section>
             <div className={styles.team}>
               <div>
-                <img src="images/ceo.png" alt="CEO" />
+                <img src="images/ceo.png" alt="CEO" className={styles.ceoImg} />
               </div>
               <div>
                 <h1>Meet The Team</h1>

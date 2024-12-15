@@ -134,7 +134,7 @@
   color: #fff;
   background-color: #16144c;
   padding: 20px;
-  height: 450px;
+  height: 480px;
 }
 
 .quality p,
@@ -256,6 +256,19 @@
 
   .introBck {
     background-size: 80%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .val {
+    flex-direction: column;
+  }
+  .integrity {
+    width: 100%;
+  }
+
+  .ceoImg {
+    width: 200px;
   }
 }
 

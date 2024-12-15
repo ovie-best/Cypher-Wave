@@ -150,15 +150,27 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .contactFlex {
-    margin-top: 200px;
-  }
-}
-
 @media screen and (max-width: 650px) {
   .contactUs,
   .form {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bck {
+    display: none;
+  }
+  .socials {
+    margin-top: 0;
+  }
+
+  .contactCenter {
+    background-color: #16144c;
+  }
+
+  .contactFlex {
+    height: auto;
+    margin-top: 50px;
   }
 }
