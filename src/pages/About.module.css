@@ -1,6 +1,6 @@
 .bck {
-  background: linear-gradient(180deg, #9e9efc 0%, #c4b5fd 100%);
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .about {
@@ -14,13 +14,6 @@
   justify-content: space-between;
   gap: 2em;
   padding-top: 3em;
-}
-
-.introBck {
-  background-image: url(./images/abtbg1.png), url(./images/abtbg2.png),
-    url(./images/abtbg3.png);
-  background-position: top right, center left, bottom right;
-  background-repeat: no-repeat;
 }
 
 .intro h1 {
@@ -39,16 +32,17 @@
 }
 
 .intro button {
-  background-color: #fff;
-  color: #9e9efc;
-  padding: 10px;
+  background-color: #16144c;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 25px;
   border-style: none;
-  border-radius: 5px;
+  border-radius: 12px;
 }
 
 .intro button:hover {
   cursor: pointer;
-  background: linear-gradient(180deg, #9e9efc 0%, #c4b5fd 100%);
+  background: linear-gradient(180deg, #9e9efc 0%, #16144c 100%);
   color: black;
 }
 
@@ -61,14 +55,15 @@
 
 .mission {
   text-align: center;
-  background-color: #ab95fd;
+  background-color: #16144c;
   padding: 30px;
-  border-right: 20px solid #fff;
-  border-left: 20px solid #fff;
+  border-right: 20px solid #b3b4c9;
+  border-left: 20px solid #b3b4c9;
+  color: #fff;
 }
 
 .mission h2 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 2em;
 }
 
@@ -77,26 +72,30 @@
 }
 
 .mission img,
-.vision img,
+.vision img {
+  width: 100%;
+  height: 17em;
+}
+
 .quality img,
 .innovation img,
 .integrity img {
-  width: 100%;
-  height: 17em;
+  width: 150px;
+  margin-bottom: 10px;
 }
 
 .vision {
   margin-top: 50px;
   text-align: center;
-  background-color: #fff;
-  color: #ab95fd;
+  background-color: #b3b4c9;
+  color: #16144c;
   padding: 30px;
-  border-right: 20px solid #ab95fd;
-  border-left: 20px solid #ab95fd;
+  border-right: 20px solid #16144c;
+  border-left: 20px solid #16144c;
 }
 
 .vision h2 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 2em;
 }
 
@@ -119,35 +118,45 @@
   margin-bottom: 30px;
 }
 
-.valueBox {
+.val {
   display: flex;
   flex-direction: row;
 
   align-items: center;
   justify-content: space-between;
   gap: 50px;
+  margin-bottom: 50px;
+}
+
+.quality,
+.innovation,
+.integrity {
+  color: #fff;
+  background-color: #16144c;
+  padding: 20px;
+  height: 450px;
+}
+
+.quality p,
+.innovation p,
+.integrity p {
+  margin-top: 15px;
 }
 
 .quality {
-  background-color: #ab95fd;
-  padding: 20px;
-  border-top: 10px solid #e8e2ff;
-  border-bottom: 10px solid #e8e2ff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .innovation {
-  color: #ab95fd;
-  background-color: #e8e2ff;
-  padding: 20px;
-  border-top: 10px solid #ab95fd;
-  border-bottom: 10px solid #ab95fd;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .integrity {
-  background-color: #cf9ffe;
-  padding: 20px;
-  border-top: 10px solid #e8e2ff;
-  border-bottom: 10px solid #e8e2ff;
+  border-radius: 0 0 20px 20px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .team {
@@ -248,4 +257,30 @@
   .introBck {
     background-size: 80%;
   }
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  font-weight: 700;
+  font-size: 1.6em;
+
+  color: #ffffff;
+  background-color: #16144c;
+  border-style: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+
+  margin-top: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #9e9efc 0%, #16144c 100%);
+  transition: 0.2s linear;
+  transform: scale(110%);
 }

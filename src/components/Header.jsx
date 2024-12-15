@@ -1,7 +1,6 @@
 import styles from "./Header.module.css";
 
 import Logo from "./Logo";
-import Button from "./Button";
 import PageNav from "./PageNav";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -24,7 +23,7 @@ function Header() {
 
         <PageNav />
         <NavLink to="/contact">
-          <Button>Contact Us</Button>
+          <button className={styles.btn}>Get in touch</button>
         </NavLink>
       </div>
 
@@ -36,7 +35,7 @@ function Header() {
 
           <PageNav />
           <NavLink to="/contact">
-            <Button>Contact Us</Button>
+            <button className={styles.btn}>Get in touch</button>
           </NavLink>
         </div>
       )}

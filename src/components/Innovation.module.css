@@ -1,5 +1,6 @@
 /* .innovate {
-  padding: 60px 0;
+  background-color: #fff;
+  clip-path: polygon(0 34%, 100% 0, 100% 100%, 0% 100%);
 } */
 
 .innovateIntro {
@@ -16,6 +17,7 @@
 .innovate p {
   font-size: 1.1em;
   margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .inovativeIdeas {

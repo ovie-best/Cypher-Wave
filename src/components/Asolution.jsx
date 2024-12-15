@@ -12,7 +12,9 @@ Asolution.propTypes = {
 function Asolution({ title, imgUrl, children }) {
   return (
     <>
-      <Header />
+      <div className="bgw">
+        <Header />
+      </div>
       <section className={styles.solution}>
         <h1>{title}</h1>
         <img src={imgUrl} />

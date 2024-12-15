@@ -1,21 +1,14 @@
-.contact {
-  background-image: url(./images/teambck1.png), url(./images/teambck2.png);
-  background-position: top right, bottom left;
-  background-repeat: no-repeat;
-}
-
 .contactUs {
-  color: #fff;
-  background-color: #ab95fd;
+  color: #16144c;
+  background-color: #bbbbcb;
   padding: 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 20px;
-}
-
-.contactCenter {
-  margin-top: 5em;
-  margin-bottom: 5em;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .contactCenter,
@@ -26,9 +19,10 @@
 }
 
 .form {
-  color: #ab95fd;
-  background-color: #e8e2ff;
+  color: #fff;
+  background-color: transparent;
   padding: 20px;
+  text-align: center;
 }
 
 .form form {
@@ -37,13 +31,34 @@
 
 .contactFlex {
   height: 700px;
+  gap: 60px;
+  margin-left: -120px;
+}
+
+.bck {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+
+  align-self: center;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 60%;
+  height: 600px;
+  border-radius: 30px;
+  background-color: #16144c;
+  margin-top: 130px;
+
+  z-index: -1;
 }
 
 .contactFlex div {
-  height: 100%;
   flex: 1;
-  filter: drop-shadow(0 0 2.5rem #c4b5fd);
-  border-radius: 5px;
+
+  border-radius: 20px;
 }
 
 .contactImg {
@@ -71,6 +86,7 @@
 
 .form input {
   height: 40px;
+  padding-left: 10px;
 }
 
 .form input:focus,
@@ -83,14 +99,18 @@
 }
 
 .submitBtn {
-  width: 100%;
-  background-color: #ab95fd;
+  background-color: #d2d4e76b;
+
   color: #fff;
-  text-transform: uppercase;
+
   border-style: none;
-  border-radius: 5px;
+  border-radius: 20px;
   height: 40px;
   cursor: pointer;
+
+  margin-left: 75%;
+
+  padding: 0 20px;
 }
 
 .contactInfo {
@@ -107,6 +127,14 @@
 
 .contactInfo p {
   font-size: 1.2em;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1100px) {

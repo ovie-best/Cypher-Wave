@@ -7,7 +7,9 @@ import styles from "./About.module.css";
 function About() {
   return (
     <div className={styles.bck}>
-      <Header />
+      <div className="bgw">
+        <Header />
+      </div>
       <div className={styles.introBck}>
         <div className={styles.about}>
           <section className={styles.intro}>
@@ -71,7 +73,8 @@ function About() {
 
           <section className={styles.values}>
             <h1>Our Values</h1>
-            <div className={styles.valueBox}>
+
+            <div className={styles.val}>
               <div className={styles.quality}>
                 <img src="./images/quality.svg" />
                 <h2>Quality</h2>
@@ -100,20 +103,19 @@ function About() {
                   most advanced and effective tools to achieve their goals.
                 </p>
               </div>
+            </div>
 
-              <div className={styles.integrity}>
-                <img src="./images/integrity.svg" />
-                <h2>Integrity</h2>
-                <p>
-                  We conduct our business with the highest standards of honesty
-                  and integrity. We believe that trust is the foundation of any
-                  successful relationship, and we are committed to building and
-                  maintaining trust with our clients, partners, and team
-                  members. Our transparent and ethical approach to business
-                  ensures that we always act in the best interests of our
-                  stakeholders.
-                </p>
-              </div>
+            <div className={styles.integrity}>
+              <img src="./images/integrity.svg" />
+              <h2>Integrity</h2>
+              <p>
+                We conduct our business with the highest standards of honesty
+                and integrity. We believe that trust is the foundation of any
+                successful relationship, and we are committed to building and
+                maintaining trust with our clients, partners, and team members.
+                Our transparent and ethical approach to business ensures that we
+                always act in the best interests of our stakeholders.
+              </p>
             </div>
           </section>
 
@@ -177,72 +179,31 @@ function About() {
               catalyst for change, a partner in progress, and a beacon of
               excellence in Africa&apos;s technological journey. Our story is
               one of passion, perseverance, and a relentless pursuit of a
-              brighter, more connected future for the continent.s
+              brighter, more connected future for the continent.
             </p>
           </section>
 
           <section>
             <div className={styles.team}>
               <div>
-                <h1>the team</h1>
-                <p>
-                  At Cypher Wave Technology, our success stems from a talented
-                  team of engineers, developers, <br /> and support staff.
-                  Guided by visionary leaders, we create cutting-edge solutions
-                  and ensure <br />
-                  product reliability.
-                </p>
-                <br />
-                <p>
-                  Our robotics and AI experts enhance precision and efficiency,
-                  while our <br /> customer support team provides exceptional
-                  service.
-                  <br />
-                  Together, we lead Africa into the next phase of technological
-                  advancements.
-                </p>
+                <img src="images/ceo.png" alt="CEO" />
               </div>
               <div>
-                <div>
-                  <div className={styles.founder}>
-                    <img
-                      className={styles.founderImg}
-                      alt="abraham fred"
-                      src="images/teamCeo.png"
-                    />
-                    <div>
-                      <p>Founder & CEO </p>
-                      <Link to="https://x.com/AbrahamFred12">
-                        <img src="images/x-white.png" />
-                      </Link>
-                      <Link to="https://www.linkedin.com/in/abraham-fred-98195219a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                        <img src="images/linkedIn-white.png" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className={styles.founder}>
-                    <img
-                      className={styles.founderImg}
-                      alt="ovie nathaniel"
-                      src="images/ovie-cto.png"
-                    />
-                    <div>
-                      <p>Co-Founder & CTO </p>
-                      <Link to="https://x.com/oviebest_2">
-                        <img src="images/x-white.png" />
-                      </Link>
-                      <Link to="www.linkedin.com/in/ovie-nathaniel">
-                        <img src="images/linkedIn-white.png" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+                <h1>Meet The Team</h1>
+                <p>
+                  At Cypherwave Technology, our strength lies in the brilliance
+                  and diversity of our team. We are a group of innovators,
+                  problem-solvers, and tech enthusiasts united by a shared
+                  mission: driving innovation and delivering cutting-edge
+                  solutions.
+                </p>
+                <Link to="/team">
+                  <button className={styles.btn}>
+                    Explore Team
+                    <img src="images/Arrow-explore.png" alt="explore" />
+                  </button>
+                </Link>
               </div>
-            </div>
-            <div className={styles.but}>
-              <Link to="/team">
-                <button className={styles.button}>Find More Team</button>
-              </Link>
             </div>
           </section>
         </div>

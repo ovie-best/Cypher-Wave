@@ -1,7 +1,14 @@
 .header {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  padding-top: 1.5em;
+  padding: 1.5em 3em;
+  position: fixed;
+  z-index: 1;
+
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(14.1px);
+  -webkit-backdrop-filter: blur(14.1px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 .headerContent {
@@ -17,6 +24,24 @@
 
 .mobilenav {
   display: none;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #16144c;
+  border-style: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #9e9efc 0%, #16144c 100%);
+  transition: 0.2s linear;
+  transform: scale(110%);
 }
 
 @media screen and (max-width: 900px) {

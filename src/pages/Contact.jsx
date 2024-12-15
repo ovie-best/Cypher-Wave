@@ -5,6 +5,7 @@ import { useState } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import styles from "./Contact.module.css";
+import { Link } from "react-router-dom";
 
 function Contact(props) {
   const [name, setName] = useState(props.name || "");
@@ -33,72 +34,57 @@ function Contact(props) {
   };
   return (
     <div className={styles.contact}>
-      <Header />
+      <div className="bgw">
+        <Header />
+      </div>
+      <div className={styles.bck}></div>
       <div className={styles.contactCenter}>
         <div className={styles.contactFlex}>
           <div className={styles.contactUs}>
             <h1>Contact Us</h1>
             <p className={styles.contactInfo}>
               <img src="./images/phone.png" />
-              <span>
-                <strong>Call Directly At: </strong>
-                +2349045957
-              </span>
+              <span>+234-80-686-906-36</span>
             </p>
-            <p className={styles.contactInfo}>
-              <img src="./images/whattasp.png" />
-              <span>
-                <strong> Whattsapp Number: </strong>
-                +23485625943
-              </span>
-            </p>
+
             <p className={styles.contactInfo}>
               <img src="./images/mail.png" />
-              <span>
-                <strong>Email: </strong>
-                cypherwavetechnology@gmail.com
-              </span>
+              <span>cypherwavetechnology@gmail.com</span>
             </p>
-            <div className={styles.contactImg}>
-              <img src="./images/contact.png" />
+            <div className={styles.socials}>
+              <Link to="https://x.com/cypherwavetech">
+                <img src="images/x-white.png" />
+              </Link>
+              <Link to="https://www.linkedin.com/company/cypher-wave-technology">
+                <img src="images/linkedIn-white.png" />
+              </Link>
             </div>
           </div>
           <div className={styles.form}>
             <form>
-              <h1>Get In Touch</h1>
+              <h1>Or Write Us</h1>
               <p>Feel free to drop a message below</p>
               <br />
               <div>
-                <label htmlFor="name">Full Name</label>
-                <br />
                 <input
                   type="text"
                   onChange={(event) => setName(event.target.value)}
                   value={name}
                   required
+                  placeholder="name"
                 />
               </div>
               <div>
-                <label htmlFor="email">Email</label> <br />
                 <input
                   type="text"
                   onChange={(event) => setEmail(event.target.value)}
                   value={email}
                   required
+                  placeholder="email"
                 />
               </div>
+
               <div>
-                <label htmlFor="phone">Phone Number</label> <br />
-                <input
-                  type="number"
-                  onChange={(event) => setPhone(event.target.value)}
-                  value={phone}
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="message">Message</label>
-                <br />
                 <textarea
                   type="text"
                   rows="4"
@@ -106,6 +92,7 @@ function Contact(props) {
                   onChange={(event) => setMsg(event.target.value)}
                   value={msg}
                   required
+                  placeholder="send message..."
                 />
               </div>
               <button
@@ -113,7 +100,7 @@ function Contact(props) {
                 className={styles.submitBtn}
                 onClick={handleSubmit}
               >
-                SUBMIT
+                Send
               </button>
             </form>
           </div>

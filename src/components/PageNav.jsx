@@ -3,7 +3,7 @@ import styles from "./PageNav.module.css";
 
 function PageNav() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ul className={styles.navLinks}>
         <li>
           <NavLink className={styles.navli} to="/">
@@ -20,11 +20,7 @@ function PageNav() {
             Products/Services
           </NavLink>
         </li>
-        <li>
-          <NavLink className={styles.navli} to="/solutions">
-            Solutions
-          </NavLink>
-        </li>
+
         <li>
           <NavLink className={styles.navli} to="/team">
             Team

@@ -10,7 +10,9 @@ import styles from "./Team.module.css";
 function Home() {
   return (
     <>
-      <Header />
+      <div className="bg">
+        <Header />
+      </div>
       <Main />
       <Innovation />
 

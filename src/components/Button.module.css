@@ -1,17 +1,18 @@
 .btn {
-  font-family: SF Pro Text, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+
   color: #ffffff;
-  background-color: #c4b5fd;
+  background-color: #16144c;
   border-style: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 25px;
 }
 
 .btn:hover {
   cursor: pointer;
-  background: linear-gradient(180deg, #9e9efc 0%, #a190e1 100%);
+  background: linear-gradient(180deg, #9e9efc 0%, #16144c 100%);
   transition: 0.2s linear;
   transform: scale(110%);
 }

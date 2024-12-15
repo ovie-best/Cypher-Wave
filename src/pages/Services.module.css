@@ -1,6 +1,7 @@
 .serviceBox {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 8em;
 }
 
 .service {
@@ -28,12 +29,16 @@
   margin-bottom: 50px;
 }
 
-.servicePage {
-  overflow: hidden;
+.serviceDescription h2 {
+  text-transform: capitalize;
 }
 
-.servicePage section {
-  margin-bottom: 8em;
+.serviceDescription p {
+  opacity: 50%;
+}
+
+.servicePage {
+  overflow: hidden;
 }
 
 .mt5 {
@@ -46,35 +51,43 @@
   align-items: center;
   margin-bottom: 5em;
 }
-
-.getIntouch {
-  color: #fff;
-  font-size: 2em;
-  font-weight: 700;
-  background-color: #ab95fd;
-  width: 600px;
-  padding: 10px;
-  border-style: none;
-  border-radius: 5px;
-  cursor: pointer;
+.vehi {
+  border-radius: 10px;
 }
 
-.getIntouch:hover {
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+
+  color: #ffffff;
+  background-color: #16144c;
+  border-style: none;
+  border-radius: 20px;
+  padding: 8px 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 30px;
+}
+
+.btn img {
+  width: 20px;
+}
+
+.btn:hover {
   cursor: pointer;
-  background: linear-gradient(180deg, #9e9efc 0%, #c4b5fd 100%);
+  background: linear-gradient(180deg, #9e9efc 0%, #16144c 100%);
+  transition: 0.2s linear;
   transform: scale(110%);
-  transition: 0.3s ease-out;
 }
 
 @media screen and (max-width: 900px) {
   .service {
     flex-direction: column;
-  }
-
-  .getIntouch {
-    width: auto;
-    padding: 10px 30px;
-    font-size: 1.2em;
   }
 
   .content {

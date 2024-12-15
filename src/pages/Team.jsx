@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
-import Footer from "../components/Footer";
+
 import Header from "../components/Header";
 import styles from "./Team.module.css";
 
 import PropTypes from "prop-types";
+import Footer from "../components/Footer";
 
 TeamMember.propTypes = {
   name: PropTypes.string,
@@ -16,7 +17,9 @@ TeamMember.propTypes = {
 function Team() {
   return (
     <div className={styles.team}>
-      <Header />
+      <div className="bgw">
+        <Header />
+      </div>
       <div className={styles.teamIntro}>
         <h1>
           <span className={styles.textPurple}>Meet </span>the
@@ -46,8 +49,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" alt="ovie" />
             <TeamMember
-              name="Ovie"
-              role="Front-End Developer"
+              name="Ovie Nathaniel"
+              role="Lead Front-End Developer"
               xHandle="https://x.com/oviebest_2"
               linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
             />
@@ -55,8 +58,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/osas.png" alt="osas" />
             <TeamMember
-              name="Osas"
-              role="UI/UX Designer"
+              name="Osemwegie Osas"
+              role="Lead UI/UX Designer"
               xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
               linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
@@ -64,8 +67,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember
-              name="Abraham"
-              role="Team Lead"
+              name="Abraham Fred"
+              role="CEO and Founder"
               xHandle="https://x.com/AbrahamFred12"
             />
           </div>
@@ -73,7 +76,7 @@ function Team() {
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember
               name="Chukwufumnanya"
-              role="Back-End Developer"
+              role="Lead Back-End Developer"
               linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
             />
           </div>
@@ -90,8 +93,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
             <TeamMember
-              name="Ovie"
-              role="Front-End Developer"
+              name="Ovie Nathaniel"
+              role="Lead Front-End Developer"
               xHandle="https://x.com/oviebest_2"
               linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
             />
@@ -99,8 +102,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
             <TeamMember
-              name="Osas"
-              role="UI/UX Designer"
+              name="Osemwegie Osas"
+              role="Lead UI/UX Designer"
               xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
               linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
@@ -108,8 +111,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember
-              name="Abraham"
-              role="Team Lead"
+              name="Abraham Fred"
+              role="CEO and Founder"
               xHandle="https://x.com/AbrahamFred12"
             />
           </div>
@@ -117,7 +120,7 @@ function Team() {
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember
               name="Chukwufumnanya"
-              role="Back-End Developer"
+              role="Lead Back-End Developer"
               linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
             />
           </div>
@@ -134,8 +137,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
             <TeamMember
-              name="Ovie"
-              role="Front-End Developer"
+              name="Ovie Nathaniel"
+              role="Lead Front-End Developer"
               xHandle="https://x.com/oviebest_2"
               linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
             />
@@ -143,8 +146,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
             <TeamMember
-              name="Osas"
-              role="UI/UX Designer"
+              name="Osemwegie Osas"
+              role="Lead UI/UX Designer"
               xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
               linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
@@ -152,8 +155,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember
-              name="Abraham"
-              role="Team Lead"
+              name="Abraham Fred"
+              role="CEO and Founder"
               xHandle="https://x.com/AbrahamFred12"
             />
           </div>
@@ -161,7 +164,7 @@ function Team() {
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember
               name="Chukwufumnanya"
-              role="Back-End Developer"
+              role="Lead Back-End Developer"
               linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
             />
           </div>
@@ -178,8 +181,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
             <TeamMember
-              name="Ovie"
-              role="Front-End Developer"
+              name="Ovie Nathaniel"
+              role="Lead Front-End Developer"
               xHandle="https://x.com/oviebest_2"
               linkedInHandle="www.linkedin.com/in/ovie-nathaniel"
             />
@@ -187,8 +190,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/osas.png" />
             <TeamMember
-              name="Osas"
-              role="UI/UX Designer"
+              name="Osemwegie Osas"
+              role="Lead UI/UX Designer"
               xHandle="https://x.com/osemwegie_osas?t=kVNNHYx6fEi_JeP_Z7-_mg&s=08"
               linkedInHandle="https://www.linkedin.com/in/osas-osemwegie-1a842a176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             />
@@ -196,8 +199,8 @@ function Team() {
           <div className={styles.carouselCard}>
             <img src="images/abraham2.jpg" />
             <TeamMember
-              name="Abraham"
-              role="Team Lead"
+              name="Abraham Fred"
+              role="CEO and Founder"
               xHandle="https://x.com/AbrahamFred12"
             />
           </div>
@@ -205,32 +208,10 @@ function Team() {
             <img src="images/chukwufumnanya1.jpg" />
             <TeamMember
               name="Chukwufumnanya"
-              role="Back-End Developer"
+              role="Lead Back-End Developer"
               linkedInHandle="https://www.linkedin.com/in/chukwufumnanya-molokwu?trk=contact-info"
             />
           </div>
-        </div>
-      </div>
-
-      <p className={styles.abtTeam}>
-        We&apos;ve been blown away by the support from Untitled. We suggested an
-        improvement to <br className={styles.br} /> our account manager and they
-        implemented it a few days!
-      </p>
-
-      <div className={styles.ceo}>
-        <img src="images/teamCeo.png" alt="CEO and Founder" />
-        <p>
-          <strong>ABRAHAM FRED</strong> <br />
-          <span className={styles.textPurple}> Founder & CEO</span>
-        </p>
-        <div className={styles.socials}>
-          <Link to="https://x.com/AbrahamFred12">
-            <img src="images/x.png" alt="x" />
-          </Link>
-          <Link to="*">
-            <img src="images/linkedIn.png" alt="LinkedIn" />
-          </Link>
         </div>
       </div>
       <Footer />
@@ -243,7 +224,7 @@ export default Team;
 function TeamMember({ name, role, xHandle, linkedInHandle }) {
   return (
     <div className={styles.teamMember}>
-      <p>
+      <p className={styles.nameBox}>
         <strong>{name}</strong>
       </p>
       <p>{role}</p>
