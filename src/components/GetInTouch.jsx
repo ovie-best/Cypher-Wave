@@ -13,7 +13,7 @@ function GetInTouch() {
             </div>
             <div>
               <p>Phone</p>
-              <p>+23485625943 +2349045957</p>
+              <strong>+234</strong>-81-259-261-61 <br />
             </div>
           </div>
 
@@ -23,7 +23,7 @@ function GetInTouch() {
             </div>
             <div>
               <p>Email</p>
-              <p>Cypherwave66@gmail.com</p>
+              <p>Cypherwavetechnology@gmail.com</p>
             </div>
           </div>
         </div>

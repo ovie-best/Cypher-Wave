@@ -50,7 +50,10 @@ function Contact(props) {
             <h1>Contact Us</h1>
             <p className={styles.contactInfo}>
               <img src="./images/phone.png" />
-              <span>+234-80-686-906-36</span>
+              <span>
+                <strong>+234</strong>-81-259-261-61 <br /> <strong>+234</strong>
+                -91-336-042-56 <br /> <strong>+234</strong>-90-672-656-48
+              </span>
             </p>
 
             <p className={styles.contactInfo}>

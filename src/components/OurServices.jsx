@@ -6,14 +6,14 @@ function OurServices() {
         <div>
           <span className={styles.s1}>01</span>
           <p>
-            Drones and <br /> Drone Repairs
+            Drones & <br /> Drone Repairs
           </p>
         </div>
 
         <div>
           <span className={styles.s2}>02</span>
           <p>
-            Buying and <br />
+            Selling & <br />
             Fixing Robots
           </p>
         </div>
@@ -21,7 +21,7 @@ function OurServices() {
         <div>
           <span className={styles.s3}>03</span>
           <p>
-            Buying and <br /> Fixing Satellites
+            Selling & <br /> Fixing Satellites
           </p>
         </div>
 
@@ -36,7 +36,14 @@ function OurServices() {
         <div>
           <span className={styles.s5}>05</span>
           <p>
-            Cyber <br /> Security
+            Cyber Security <br /> Services
+          </p>
+        </div>
+        <div>
+          <span className={styles.s4}>06</span>
+          <p>
+            Web & App <br />
+            Development
           </p>
         </div>
       </div>

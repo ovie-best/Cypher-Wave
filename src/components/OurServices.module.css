@@ -72,7 +72,7 @@
 
 @media screen and (max-width: 650px) {
   .services {
-    height: 600px;
+    height: 650px;
   }
   .container {
     flex-wrap: wrap;
