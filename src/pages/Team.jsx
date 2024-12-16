@@ -38,15 +38,6 @@ function Team() {
       <div className={styles.teamCarouselContainer}>
         <div className={styles.teamCarouselTrack}>
           <div className={styles.carouselCard}>
-            <img src="images/nosa.png" />
-            <TeamMember
-              name="Nosa"
-              role="UI/UX Designer"
-              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
-            />
-          </div>
-          <div className={styles.carouselCard}>
             <img src="images/ovie.png" alt="ovie" />
             <TeamMember
               name="Ovie Nathaniel"
@@ -82,15 +73,6 @@ function Team() {
           </div>
 
           <div className={styles.carouselCard}>
-            <img src="images/nosa.png" />
-            <TeamMember
-              name="Nosa"
-              role="UI/UX Designer"
-              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
-            />
-          </div>
-          <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
             <TeamMember
               name="Ovie Nathaniel"
@@ -126,15 +108,6 @@ function Team() {
           </div>
 
           <div className={styles.carouselCard}>
-            <img src="images/nosa.png" />
-            <TeamMember
-              name="Nosa"
-              role="UI/UX Designer"
-              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
-            />
-          </div>
-          <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
             <TeamMember
               name="Ovie Nathaniel"
@@ -169,15 +142,6 @@ function Team() {
             />
           </div>
 
-          <div className={styles.carouselCard}>
-            <img src="images/nosa.png" />
-            <TeamMember
-              name="Nosa"
-              role="UI/UX Designer"
-              xHandle="https://x.com/Nosaosayan?t=_voj0vinw5kZdrrsZyjNDQ&s=09"
-              linkedInHandle="https://www.linkedin.com/in/osayanwen-nosa-275bab263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            />
-          </div>
           <div className={styles.carouselCard}>
             <img src="images/ovie.png" />
             <TeamMember
